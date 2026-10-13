@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     description: 'Descubra quais produtos realmente valem a pena na Black Friday com curadoria independente.',
     type: 'website',
   },
+  icons: {
+    icon: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({
