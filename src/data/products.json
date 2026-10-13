@@ -28,13 +28,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Processador", "value": "Ryzen 5 7520U" },
-      { "label": "Memória RAM", "value": "8GB LPDDR5" },
-      { "label": "Armazenamento", "value": "256GB NVMe SSD" },
-      { "label": "Tela", "value": "15.6 polegadas Antirreflexo" }
+      {
+        "label": "Processador",
+        "value": "Ryzen 5 7520U"
+      },
+      {
+        "label": "Memória RAM",
+        "value": "8GB LPDDR5"
+      },
+      {
+        "label": "Armazenamento",
+        "value": "256GB NVMe SSD"
+      },
+      {
+        "label": "Tela",
+        "value": "15.6 polegadas Antirreflexo"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=lenovo+ideapad+1+ryzen+5",
+      "amazon": "https://www.amazon.com.br/s?k=lenovo+ideapad+1+ryzen+5&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/lenovo-ideapad-ryzen-5",
       "shopee": "https://shopee.com.br/search?keyword=lenovo+ideapad+1"
     },
@@ -68,13 +80,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Processador", "value": "Intel Core i5 13ª Geração" },
-      { "label": "Placa de Vídeo", "value": "NVIDIA GeForce RTX 3050 6GB" },
-      { "label": "Memória RAM", "value": "16GB DDR5 (expansível)" },
-      { "label": "Tela", "value": "15.6 IPS 144Hz" }
+      {
+        "label": "Processador",
+        "value": "Intel Core i5 13ª Geração"
+      },
+      {
+        "label": "Placa de Vídeo",
+        "value": "NVIDIA GeForce RTX 3050 6GB"
+      },
+      {
+        "label": "Memória RAM",
+        "value": "16GB DDR5 (expansível)"
+      },
+      {
+        "label": "Tela",
+        "value": "15.6 IPS 144Hz"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=acer+nitro+v15+rtx+3050",
+      "amazon": "https://www.amazon.com.br/s?k=acer+nitro+v15+rtx+3050&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/acer-nitro-v15-rtx-3050",
       "shopee": "https://shopee.com.br/search?keyword=acer+nitro+v15"
     },
@@ -107,13 +131,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Capacidade", "value": "4 Litros" },
-      { "label": "Potência", "value": "1500W" },
-      { "label": "Timer", "value": "60 minutos com desligamento automático" },
-      { "label": "Revestimento", "value": "Antiaderente Duraflon" }
+      {
+        "label": "Capacidade",
+        "value": "4 Litros"
+      },
+      {
+        "label": "Potência",
+        "value": "1500W"
+      },
+      {
+        "label": "Timer",
+        "value": "60 minutos com desligamento automático"
+      },
+      {
+        "label": "Revestimento",
+        "value": "Antiaderente Duraflon"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=airfryer+mondial+4l",
+      "amazon": "https://www.amazon.com.br/s?k=airfryer+mondial+4l&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/airfryer-mondial-4-litros",
       "shopee": "https://shopee.com.br/search?keyword=airfryer+mondial"
     },
@@ -145,13 +181,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Voltagem da Bateria", "value": "18V Íons de Lítio" },
-      { "label": "Torque Máximo", "value": "54 Nm" },
-      { "label": "Impacto", "value": "Função com percussão para alvenaria" },
-      { "label": "Acompanha", "value": "Bateria + Carregador Bivolt + Maleta" }
+      {
+        "label": "Voltagem da Bateria",
+        "value": "18V Íons de Lítio"
+      },
+      {
+        "label": "Torque Máximo",
+        "value": "54 Nm"
+      },
+      {
+        "label": "Impacto",
+        "value": "Função com percussão para alvenaria"
+      },
+      {
+        "label": "Acompanha",
+        "value": "Bateria + Carregador Bivolt + Maleta"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=parafusadeira+bosch+gsb+180",
+      "amazon": "https://www.amazon.com.br/s?k=parafusadeira+bosch+gsb+180&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-180",
       "shopee": "https://shopee.com.br/search?keyword=bosch+gsb+180"
     },
@@ -183,13 +231,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Tela", "value": "LCD 3.2 polegadas colorida" },
-      { "label": "Alcance", "value": "Até 260m em área aberta / 50m com paredes" },
-      { "label": "Visão Noturna", "value": "Infravermelho até 5 metros" },
-      { "label": "Bateria Monitor", "value": "Autonomia de até 24h no modo VOX econômico" }
+      {
+        "label": "Tela",
+        "value": "LCD 3.2 polegadas colorida"
+      },
+      {
+        "label": "Alcance",
+        "value": "Até 260m em área aberta / 50m com paredes"
+      },
+      {
+        "label": "Visão Noturna",
+        "value": "Infravermelho até 5 metros"
+      },
+      {
+        "label": "Bateria Monitor",
+        "value": "Autonomia de até 24h no modo VOX econômico"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=baba+eletronica+com+camera+visao+noturna",
+      "amazon": "https://www.amazon.com.br/s?k=baba+eletronica+com+camera+visao+noturna&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/baba-eletronica-com-camera",
       "shopee": "https://shopee.com.br/search?keyword=baba+eletronica"
     },
@@ -221,13 +281,25 @@
       ]
     },
     "specsSummary": [
-      { "label": "Potência", "value": "120W com 9000Pa de sucção" },
-      { "label": "Alimentação", "value": "Bateria recarregável via USB Type-C" },
-      { "label": "Filtro", "value": "HEPA lavável e reutilizável" },
-      { "label": "Acessórios", "value": "Bocal longo + escova para estofados" }
+      {
+        "label": "Potência",
+        "value": "120W com 9000Pa de sucção"
+      },
+      {
+        "label": "Alimentação",
+        "value": "Bateria recarregável via USB Type-C"
+      },
+      {
+        "label": "Filtro",
+        "value": "HEPA lavável e reutilizável"
+      },
+      {
+        "label": "Acessórios",
+        "value": "Bocal longo + escova para estofados"
+      }
     ],
     "affiliateLinks": {
-      "amazon": "https://www.amazon.com.br/s?k=aspirador+automotivo+portatil+sem+fio",
+      "amazon": "https://www.amazon.com.br/s?k=aspirador+automotivo+portatil+sem+fio&tag=radarbf-20",
       "mercadoLivre": "https://lista.mercadolivre.com.br/aspirador-automotivo-sem-fio",
       "shopee": "https://shopee.com.br/search?keyword=aspirador+automotivo"
     },
