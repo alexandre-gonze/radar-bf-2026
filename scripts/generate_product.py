@@ -20,6 +20,13 @@ if sys.platform == "win32":
     except Exception:
         pass
 
+# Importa o monetizador de links
+try:
+    from affiliate_linker import monetize_url
+except ImportError:
+    def monetize_url(url, product_id=None):
+        return (url, False)
+
 PRODUCTS_JSON_PATH = os.path.join(os.path.dirname(__file__), "..", "src", "data", "products.json")
 
 def load_products():
@@ -81,6 +88,15 @@ Está em dúvida se o {name} vale a pena na Black Friday? Veja o guia direto ao 
 ================================================================================
 """
 
+    # Monetização com fallback inteligente
+    amz_raw = product['affiliateLinks'].get('amazon', '')
+    ml_raw = product['affiliateLinks'].get('mercadoLivre', '')
+    shp_raw = product['affiliateLinks'].get('shopee', '')
+
+    amz_final, amz_monetized = monetize_url(amz_raw, product.get("id"))
+    ml_final, ml_monetized = monetize_url(ml_raw, product.get("id"))
+    shp_final, shp_monetized = monetize_url(shp_raw, product.get("id"))
+
     # 3. Mensagem para WhatsApp / Telegram (Canal de Ofertas)
     wa_message = f"""
 ================================================================================
@@ -99,9 +115,9 @@ Está em dúvida se o {name} vale a pena na Black Friday? Veja o guia direto ao 
 • {not_for}
 
 🛒 *ONDE GARANTIR PELO MENOR PREÇO COM SEGURANÇA:*
-📦 Amazon: {product['affiliateLinks'].get('amazon', 'Link')}
-⚡ Mercado Livre: {product['affiliateLinks'].get('mercadoLivre', 'Link')}
-🛍️ Shopee: {product['affiliateLinks'].get('shopee', 'Link')}
+📦 Amazon: {amz_final} {'(Comissão Ativa)' if amz_monetized else '(Link Direto Loja)'}
+⚡ Mercado Livre: {ml_final} {'(Comissão Ativa)' if ml_monetized else '(Link Direto Loja)'}
+🛍️ Shopee: {shp_final} {'(Comissão Ativa)' if shp_monetized else '(Link Direto Loja)'}
 
 ⚠️ _Preço e estoque podem esgotar a qualquer momento!_
 ================================================================================
