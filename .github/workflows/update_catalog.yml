@@ -1,0 +1,33 @@
+name: Atualizar Catalogo e Tendencias Black Friday
+
+on:
+  schedule:
+    # Executa todos os dias às 06:00 e às 18:00 (UTC)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch: # Permite disparar manualmente com 1 clique
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Executar Minerador de Tendencias
+        run: |
+          python scripts/mine_trends.py
+
+      - name: Comitar e Publicar Atualizacoes
+        run: |
+          git config --global user.name "Radar BF Bot"
+          git config --global user.email "bot@radarbf.local"
+          git add trending_report.json src/data/products.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(bot): atualizacao automatica de catalogo e tendencias" && git push)
