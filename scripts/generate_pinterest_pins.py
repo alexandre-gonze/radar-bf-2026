@@ -55,45 +55,58 @@ def create_pin(product):
     draw.text((width // 2, 230), "VALE A PENA", fill=(245, 158, 11), font=font_hook, anchor="mm")
     draw.text((width // 2, 310), "OU É CILADA?", fill=(255, 255, 255), font=font_hook, anchor="mm")
 
-    # 4. Box Central com Nome do Produto
-    draw.rounded_rectangle([60, 400, width - 60, 780], radius=32, fill=(17, 24, 39), outline=(220, 38, 38), width=3)
+    # 4. Foto Real do Produto e Cena de Uso
+    product_img_path = os.path.join(os.path.dirname(__file__), "..", "public", "products", f"{product['id']}.jpg")
+    photo_box = (60, 380, width - 60, 820)
     
-    # Categoria badge
+    if os.path.exists(product_img_path):
+        try:
+            prod_photo = Image.open(product_img_path).convert("RGB")
+            # Redimensiona para caber perfeitamente no box mantendo aspecto
+            target_w = photo_box[2] - photo_box[0]
+            target_h = photo_box[3] - photo_box[1]
+            prod_photo = prod_photo.resize((target_w, target_h), Image.Resampling.LANCZOS)
+            img.paste(prod_photo, (photo_box[0], photo_box[1]))
+            # Borda estilizada ao redor da foto
+            draw.rectangle([photo_box[0], photo_box[1], photo_box[2], photo_box[3]], outline=(220, 38, 38), width=3)
+        except Exception:
+            draw.rounded_rectangle([photo_box[0], photo_box[1], photo_box[2], photo_box[3]], radius=24, fill=(17, 24, 39), outline=(220, 38, 38), width=3)
+    else:
+        draw.rounded_rectangle([photo_box[0], photo_box[1], photo_box[2], photo_box[3]], radius=24, fill=(17, 24, 39), outline=(220, 38, 38), width=3)
+
+    # Categoria badge sobreposta na foto
     cat_text = product.get("categoryLabel", "").upper()
-    draw.rounded_rectangle([width // 2 - 200, 430, width // 2 + 200, 485], radius=20, fill=(31, 41, 55))
-    draw.text((width // 2, 458), cat_text, fill=(56, 189, 248), font=font_footer, anchor="mm")
+    draw.rounded_rectangle([80, 400, 360, 445], radius=12, fill=(15, 23, 42))
+    draw.text((220, 422), cat_text, fill=(56, 189, 248), font=font_badge, anchor="mm")
 
-    # Nome do produto
+    # Nome do produto abaixo da foto
+    draw.rounded_rectangle([60, 840, width - 60, 940], radius=16, fill=(17, 24, 39))
     words = product["name"].split()
-    l1 = " ".join(words[:4])
-    l2 = " ".join(words[4:8]) if len(words) > 4 else ""
-    l3 = " ".join(words[8:12]) if len(words) > 8 else ""
-
-    draw.text((width // 2, 560), l1, fill=(255, 255, 255), font=font_title, anchor="mm")
+    l1 = " ".join(words[:5])
+    l2 = " ".join(words[5:10]) if len(words) > 5 else ""
+    draw.text((width // 2, 870), l1, fill=(255, 255, 255), font=font_title, anchor="mm")
     if l2:
-        draw.text((width // 2, 630), l2, fill=(209, 213, 219), font=font_title, anchor="mm")
-    if l3:
-        draw.text((width // 2, 700), l3, fill=(156, 163, 175), font=font_body, anchor="mm")
+        draw.text((width // 2, 912), l2, fill=(209, 213, 219), font=font_body, anchor="mm")
 
     # 5. Destaque de Preço e Desconto
     price = product.get("estimatedPrice", "")
     disc = product.get("discountPercentage", 0)
-    draw.rounded_rectangle([120, 830, width - 120, 950], radius=24, fill=(16, 185, 129))
-    draw.text((width // 2, 890), f"PREÇO ESTIMADO: {price} (-{disc}%)", fill=(255, 255, 255), font=font_badge, anchor="mm")
+    draw.rounded_rectangle([120, 960, width - 120, 1050], radius=20, fill=(16, 185, 129))
+    draw.text((width // 2, 1005), f"OFERTA BF: {price} (-{disc}%)", fill=(255, 255, 255), font=font_badge, anchor="mm")
 
     # 6. Para quem serve (Diferencial)
-    draw.rounded_rectangle([60, 1000, width - 60, 1320], radius=28, fill=(15, 23, 42), outline=(55, 65, 81), width=2)
-    draw.text((100, 1040), "🟢 PARA QUEM É PERFEITO:", fill=(52, 211, 153), font=font_badge)
+    draw.rounded_rectangle([60, 1070, width - 60, 1340], radius=24, fill=(15, 23, 42), outline=(55, 65, 81), width=2)
+    draw.text((100, 1105), "🟢 PARA QUEM É PERFEITO:", fill=(52, 211, 153), font=font_badge)
     
-    y_offset = 1100
+    y_offset = 1155
     for item in product["useCases"]["perfectFor"][:2]:
         draw.text((120, y_offset), f"• {item[:45]}...", fill=(229, 231, 235), font=font_body)
-        y_offset += 55
+        y_offset += 45
 
     not_for = product["useCases"]["notRecommendedFor"][0] if product["useCases"]["notRecommendedFor"] else ""
     if not_for:
-        draw.text((100, 1220), "🔴 NÃO COMPRE SE:", fill=(248, 113, 113), font=font_badge)
-        draw.text((120, 1270), f"• {not_for[:45]}...", fill=(209, 213, 219), font=font_body)
+        draw.text((100, 1255), "🔴 NÃO COMPRE SE:", fill=(248, 113, 113), font=font_badge)
+        draw.text((120, 1295), f"• {not_for[:45]}...", fill=(209, 213, 219), font=font_body)
 
     # 7. Rodapé com Chamada para Ação e Link
     draw.rectangle([0, height - 120, width, height], fill=(17, 24, 39))
