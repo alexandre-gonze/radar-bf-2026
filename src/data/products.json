@@ -1,0 +1,236 @@
+[
+  {
+    "id": "notebook-lenovo-ideapad-ryzen-5",
+    "name": "Notebook Lenovo IdeaPad 1 AMD Ryzen 5 8GB 256GB SSD",
+    "tagline": "O melhor equilíbrio para estudos, faculdade e home office com preço acessível",
+    "category": "estudantes",
+    "categoryLabel": "Estudantes & Faculdade",
+    "badge": "Campeão Custo-Benefício BF",
+    "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 2.199,00",
+    "originalPrice": "R$ 2.899,00",
+    "discountPercentage": 24,
+    "useCases": {
+      "perfectFor": [
+        "Aulas online, PDFs pesados, pesquisas com 20+ abas",
+        "Pacote Office (Word, Excel com fórmulas, PowerPoint)",
+        "Trabalho remoto leve e videochamadas (Google Meet/Teams)",
+        "Navegação rápida com inicialização em 8 segundos (SSD)"
+      ],
+      "goodFor": [
+        "Edição de artes para redes sociais no Canva",
+        "Assistir streaming em Full HD com boa autonomia de bateria"
+      ],
+      "notRecommendedFor": [
+        "Jogos pesados modernos (Cyberpunk, Warzone, GTA V no talo)",
+        "Renderização profissional de vídeos em 4K no Premiere/After Effects",
+        "Softwares pesados de modelagem 3D (Blender / AutoCAD volumoso)"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Processador", "value": "Ryzen 5 7520U" },
+      { "label": "Memória RAM", "value": "8GB LPDDR5" },
+      { "label": "Armazenamento", "value": "256GB NVMe SSD" },
+      { "label": "Tela", "value": "15.6 polegadas Antirreflexo" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=lenovo+ideapad+1+ryzen+5",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/lenovo-ideapad-ryzen-5",
+      "shopee": "https://shopee.com.br/search?keyword=lenovo+ideapad+1"
+    },
+    "verifiedDeal": true
+  },
+  {
+    "id": "notebook-acer-nitro-v15-rtx3050",
+    "name": "Notebook Gamer Acer Nitro V15 Intel i5 16GB 512GB RTX 3050",
+    "tagline": "Máquina potente para programadores, criadores de conteúdo e gamers exigentes",
+    "category": "ti-trabalho",
+    "categoryLabel": "TI & Produtividade",
+    "badge": "Mais Potência por Menor Preço",
+    "imageUrl": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 4.299,00",
+    "originalPrice": "R$ 5.499,00",
+    "discountPercentage": 21,
+    "useCases": {
+      "perfectFor": [
+        "Desenvolvedores de software (Docker, VS Code com dezenas de extensões, emuladores Android/iOS)",
+        "Edição e renderização de vídeos em 1080p e 4K (GPU dedicada RTX com aceleração NVENC)",
+        "Jogos modernos com taxa de quadros fluida (144Hz)",
+        "Engenharia, arquitetura e softwares CAD / Revit"
+      ],
+      "goodFor": [
+        "Substituir totalmente um PC Desktop em casa com monitor externo",
+        "Lives e streaming de gameplay básica"
+      ],
+      "notRecommendedFor": [
+        "Quem busca um notebook ultra leve para levar na bolsa o dia todo (pesa ~2.2 kg)",
+        "Quem precisa de mais de 5 horas de bateria longe da tomada (notebook gamer exige fonte)"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Processador", "value": "Intel Core i5 13ª Geração" },
+      { "label": "Placa de Vídeo", "value": "NVIDIA GeForce RTX 3050 6GB" },
+      { "label": "Memória RAM", "value": "16GB DDR5 (expansível)" },
+      { "label": "Tela", "value": "15.6 IPS 144Hz" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=acer+nitro+v15+rtx+3050",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/acer-nitro-v15-rtx-3050",
+      "shopee": "https://shopee.com.br/search?keyword=acer+nitro+v15"
+    },
+    "verifiedDeal": true
+  },
+  {
+    "id": "airfryer-mondial-afn-40-ri",
+    "name": "Fritadeira Sem Óleo Airfryer Mondial Grand Family 4 Litros",
+    "tagline": "A queridinha do Brasil: rápida, fácil de lavar e perfeita para famílias de até 4 pessoas",
+    "category": "casa-cozinha",
+    "categoryLabel": "Casa & Cozinha",
+    "badge": "Top 1 Mais Vendido Brasil",
+    "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 249,00",
+    "originalPrice": "R$ 389,00",
+    "discountPercentage": 36,
+    "useCases": {
+      "perfectFor": [
+        "Fritar batata, frango, legumes e esquentar pão sem pingar uma gota de óleo",
+        "Casais e famílias pequenas (cesto quadrado de 4L que cabe até frango inteiro pequeno)",
+        "Quem quer economia de gás e rapidez no almoço/jantar"
+      ],
+      "goodFor": [
+        "Fazer bolos pequenos e pudins em formas compatíveis",
+        "Descongelar alimentos rapidamente"
+      ],
+      "notRecommendedFor": [
+        "Grandes churrascos ou famílias de 6+ pessoas (neste caso opte pelo modelo de 8L / Dual Zone)",
+        "Quem não quer lavar a grelha manualmente após cada preparo"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Capacidade", "value": "4 Litros" },
+      { "label": "Potência", "value": "1500W" },
+      { "label": "Timer", "value": "60 minutos com desligamento automático" },
+      { "label": "Revestimento", "value": "Antiaderente Duraflon" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=airfryer+mondial+4l",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/airfryer-mondial-4-litros",
+      "shopee": "https://shopee.com.br/search?keyword=airfryer+mondial"
+    },
+    "verifiedDeal": true
+  },
+  {
+    "id": "parafusadeira-bosch-go-ou-gsb-180",
+    "name": "Parafusadeira e Furadeira de Impacto Bosch GSB 180-LI 18V",
+    "tagline": "Ferramenta profissional durável para furar alvenaria, madeira e montar móveis sem esforço",
+    "category": "obra-ferramentas",
+    "categoryLabel": "Obra & Ferramentas",
+    "badge": "Escolha dos Profissionais",
+    "imageUrl": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 569,00",
+    "originalPrice": "R$ 799,00",
+    "discountPercentage": 28,
+    "useCases": {
+      "perfectFor": [
+        "Instalar prateleiras, suportes de TV e quadros em parede de alvenaria e concreto leve",
+        "Montagem rápida de móveis e marcenaria doméstica ou profissional",
+        "Quem quer uma ferramenta sem fio que dura 10+ anos na caixa de ferramentas"
+      ],
+      "goodFor": [
+        "Perfurações em metais e madeira grossa com brocas adequadas"
+      ],
+      "notRecommendedFor": [
+        "Demolição pesada ou furar vigas de concreto armado maciço (necessita martelete rotativo SDS)",
+        "Quem quer apenas apertar 1 parafuso por ano (neste caso uma de 12V simples de R$ 150 resolve)"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Voltagem da Bateria", "value": "18V Íons de Lítio" },
+      { "label": "Torque Máximo", "value": "54 Nm" },
+      { "label": "Impacto", "value": "Função com percussão para alvenaria" },
+      { "label": "Acompanha", "value": "Bateria + Carregador Bivolt + Maleta" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=parafusadeira+bosch+gsb+180",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/parafusadeira-bosch-gsb-180",
+      "shopee": "https://shopee.com.br/search?keyword=bosch+gsb+180"
+    },
+    "verifiedDeal": true
+  },
+  {
+    "id": "baba-eletronica-takdir-ou-motorola",
+    "name": "Babá Eletrônica com Câmera Visão Noturna e Áudio Bidirecional",
+    "tagline": "Paz de espírito total para os pais: monitore o sono do bebê com tela sem depender do Wi-Fi cair",
+    "category": "maes-bebes",
+    "categoryLabel": "Mães & Bebês",
+    "badge": "Indispensável para Maternidade",
+    "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 289,00",
+    "originalPrice": "R$ 420,00",
+    "discountPercentage": 31,
+    "useCases": {
+      "perfectFor": [
+        "Mães e pais monitorarem o berço de qualquer cômodo da casa em tempo real",
+        "Noite inteira com visão noturna infravermelha automática",
+        "Falar com o bebê pelo microfone (áudio bidirecional) e sensor de temperatura do quarto",
+        "Famílias que não querem depender de Wi-Fi ou apps de celular que travam"
+      ],
+      "goodFor": [
+        "Tocar canções de ninar embutidas para acalmar o bebê"
+      ],
+      "notRecommendedFor": [
+        "Acessar a câmera quando estiver na rua / no trabalho (o monitor funciona por frequência direta de 2.4GHz até 200m dentro de casa)"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Tela", "value": "LCD 3.2 polegadas colorida" },
+      { "label": "Alcance", "value": "Até 260m em área aberta / 50m com paredes" },
+      { "label": "Visão Noturna", "value": "Infravermelho até 5 metros" },
+      { "label": "Bateria Monitor", "value": "Autonomia de até 24h no modo VOX econômico" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=baba+eletronica+com+camera+visao+noturna",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/baba-eletronica-com-camera",
+      "shopee": "https://shopee.com.br/search?keyword=baba+eletronica"
+    },
+    "verifiedDeal": true
+  },
+  {
+    "id": "aspirador-automotivo-portatil-sem-fio",
+    "name": "Aspirador Automotivo Portátil Sem Fio 120W de Alta Sucção",
+    "tagline": "Carro limpo sem pagar lava-rápido: suga farelos, terra e pelos de animais nos cantos mais difíceis",
+    "category": "carros",
+    "categoryLabel": "Carros & Cuidados",
+    "badge": "Viral no TikTok",
+    "imageUrl": "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=80",
+    "estimatedPrice": "R$ 89,00",
+    "originalPrice": "R$ 149,00",
+    "discountPercentage": 40,
+    "useCases": {
+      "perfectFor": [
+        "Limpar bancos, porta-copos, painel e assoalho rapidamente sem fios atrapalhando",
+        "Motoristas de aplicativo (Uber/99) manterem o veículo impecável entre uma corrida e outra",
+        "Guardar no porta-luvas ou porta-malas por ser compacto e recarregar via USB"
+      ],
+      "goodFor": [
+        "Aspirar teclado de computador e cantos de sofá em casa"
+      ],
+      "notRecommendedFor": [
+        "Aspirar lama densa ou água profunda (uso indicado para sujeira seca e farelos)",
+        "Faxina pesada da casa inteira (capacidade de reservatório de 0.5L focada em automóveis)"
+      ]
+    },
+    "specsSummary": [
+      { "label": "Potência", "value": "120W com 9000Pa de sucção" },
+      { "label": "Alimentação", "value": "Bateria recarregável via USB Type-C" },
+      { "label": "Filtro", "value": "HEPA lavável e reutilizável" },
+      { "label": "Acessórios", "value": "Bocal longo + escova para estofados" }
+    ],
+    "affiliateLinks": {
+      "amazon": "https://www.amazon.com.br/s?k=aspirador+automotivo+portatil+sem+fio",
+      "mercadoLivre": "https://lista.mercadolivre.com.br/aspirador-automotivo-sem-fio",
+      "shopee": "https://shopee.com.br/search?keyword=aspirador+automotivo"
+    },
+    "verifiedDeal": true
+  }
+]

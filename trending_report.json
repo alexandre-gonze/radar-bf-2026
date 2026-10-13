@@ -1,0 +1,86 @@
+[
+  {
+    "category_id": "estudantes",
+    "title": "Estudantes & Faculdade",
+    "ticket_medio": "R$ 1.500 - R$ 2.800",
+    "terms": [
+      "notebook barato para estudo",
+      "tablet para estudar com caneta",
+      "mochila impermeavel notebook",
+      "kindle 11 geracao",
+      "fone com cancelamento de ruido"
+    ]
+  },
+  {
+    "category_id": "ti-trabalho",
+    "title": "TI & Produtividade / Home Office",
+    "ticket_medio": "R$ 3.000 - R$ 5.500",
+    "terms": [
+      "notebook rtx 3050 ryzen",
+      "cadeira ergonomica nr17",
+      "monitor ultrawide 29 lg",
+      "teclado mecanico sem fio",
+      "hub usb-c 7 em 1"
+    ]
+  },
+  {
+    "category_id": "gamers",
+    "title": "Setup Gamer & Consoles",
+    "ticket_medio": "R$ 150 - R$ 3.800",
+    "terms": [
+      "playstation 5 slim",
+      "nintendo switch oled",
+      "headset hyperx cloud",
+      "mouse logitech g pro",
+      "monitor gamer 144hz 1ms"
+    ]
+  },
+  {
+    "category_id": "casa-cozinha",
+    "title": "Casa & Cozinha Inteligente",
+    "ticket_medio": "R$ 200 - R$ 1.200",
+    "terms": [
+      "airfryer 4 litros mondial",
+      "robo aspirador com mapeamento",
+      "panela de pressao eletrica inox",
+      "liquidificador potente 1200w",
+      "filtro purificador de agua consul"
+    ]
+  },
+  {
+    "category_id": "maes-bebes",
+    "title": "Mães, Pais & Primeira Infância",
+    "ticket_medio": "R$ 180 - R$ 1.500",
+    "terms": [
+      "baba eletronica com camera visao noturna",
+      "carrinho de bebe compacto aviao",
+      "cadeirinha auto isofix 0 a 36kg",
+      "esterilizador mamadeira microondas",
+      "aspirador nasal eletrico infantil"
+    ]
+  },
+  {
+    "category_id": "obra-ferramentas",
+    "title": "Obra, Reforma & Ferramentas",
+    "ticket_medio": "R$ 150 - R$ 800",
+    "terms": [
+      "parafusadeira furadeira impacto 18v bosch",
+      "lavadora alta pressao karcher",
+      "trena a laser 40m",
+      "jogo de chaves soquete catraca",
+      "maleta de ferramentas completa"
+    ]
+  },
+  {
+    "category_id": "carros",
+    "title": "Carros, Garagem & Cuidados Automotivos",
+    "ticket_medio": "R$ 80 - R$ 400",
+    "terms": [
+      "aspirador automotivo portatil 120w",
+      "compressor de ar portatil pneu",
+      "camera veicular dashcam",
+      "suporte celular veicular magsafe",
+      "shampoo automotivo cera vonixx"
+    ]
+  }
+]
