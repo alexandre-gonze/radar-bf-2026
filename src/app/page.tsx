@@ -194,6 +194,8 @@ export default function Home() {
             </p>
           </div>
           <div className="flex items-center space-x-4 text-gray-400">
+            <a href="https://br.pinterest.com/radarbf/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-300 transition-colors font-medium">Pinterest @radarbf</a>
+            <span>•</span>
             <a href="#radar-vip" className="hover:text-white transition-colors">Alertas VIP</a>
             <span>•</span>
             <a href="#" className="hover:text-white transition-colors">Termos</a>
