@@ -35,10 +35,12 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
   onSelectCategory,
   counts,
 }) => {
+  const activeCategories = CATEGORIES.filter(cat => cat.id === 'todos' || (counts[cat.id] && counts[cat.id] > 0));
+
   return (
     <div className="w-full overflow-x-auto pb-2 scrollbar-none">
       <div className="flex items-center space-x-2 sm:space-x-3 min-w-max">
-        {CATEGORIES.map((cat) => {
+        {activeCategories.map((cat) => {
           const Icon = cat.icon;
           const isSelected = selectedCategory === cat.id;
           const count = counts[cat.id] || 0;
