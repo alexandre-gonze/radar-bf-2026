@@ -122,12 +122,12 @@ def main():
     with open(json_path, "r", encoding="utf-8") as f:
         products = json.load(f)
 
-    print(f"📌 Gerando Pins verticais para Pinterest (Top 10 produtos)...")
-    for idx, p in enumerate(products[:10], 1):
+    print(f"📌 Gerando Pins verticais com fotos reais para todos os {len(products)} produtos...")
+    for idx, p in enumerate(products, 1):
         path = create_pin(p)
-        print(f"  [{idx:02d}/10] Pin criado: {os.path.basename(path)}")
+        print(f"  [{idx:02d}/{len(products)}] Pin criado: {os.path.basename(path)}")
 
-    print("\n✅ Pins do Pinterest gerados em 'public/pins/' prontos para upload!")
+    print(f"\n✅ Todos os {len(products)} Pins do Pinterest gerados em 'public/pins/' prontos para upload!")
 
 if __name__ == "__main__":
     main()
